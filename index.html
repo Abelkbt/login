@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website  with login and registraion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">logo</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="container">
+            <div class="card">
+                <div class="inner-box" id="card">
+                    <div class="card-front">
+                        <h2>LOGIN</h2>
+
+                        <form>
+                            <input type="email"  class="input-box"
+                             placeholder="Email addres " required> 
+                        </form>
+                        <form>
+                            <input type="password" class="input-box"
+                             placeholder="Password" required>
+                            <button type="submit" class="submit-btn">submit</button>
+                            <div class="cbx">
+                            <input type="checkbox"> <span>remember me</span>
+                            </div>
+                        </form>
+
+                            <button type="button" class="btn" onclick="openRegister( )">sign up</button>
+                            <a href="">forgot password</a>
+                        </form>
+                    </div>
+                    <div class="card-back">
+                        <h2>REGISTER</h2>
+
+                        <form>
+                            <input type="email"  class="input-box"
+                             placeholder="Email addres " required>
+                            <input type="text"  class="input-box"
+                             placeholder="Password" required> 
+                        </form>
+                        <form>
+                            <input type="password" class="input-box"
+                             placeholder="Confirm your password" required>
+                            <button type="submit" class="submit-btn">submit</button>
+                            <div class="cbx">
+                            <input type="checkbox"> <span>remember me</span>
+                            </div>
+                        </form>
+
+                            <button type="button" class="btn" onclick="openLogin()">sign up</button>
+                            <a href="">forgot password</a>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script>
+    </script>
+</body>
+</html>
